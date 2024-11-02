@@ -1,0 +1,75 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+.main {
+  width: 460px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+}
+.modalContent {
+  text-align: center;
+}
+.modalContent h3 {
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  margin-bottom: 30px;
+}
+.actions {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.btn {
+  width: 185px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.confirmBtn {
+  background-color: #55a3f0;
+  color: #fff;
+}
+.cancel {
+  background-color: #dfdfdf;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.formGroup label {
+  text-align: right;
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: #282828;
+}
+.formGroup input {
+  padding: 10px;
+  border-radius: 8px;
+  background-color: #f2f2f2;
+  border: none;
+  outline: none;
+}

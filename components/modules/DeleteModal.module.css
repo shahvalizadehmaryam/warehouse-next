@@ -1,0 +1,49 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(3px);
+}
+.main {
+  width: 472px;
+  padding: 20px;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border: none;
+  border-radius: 20px;
+}
+.modalContent {
+  text-align: center;
+}
+.modalContent img {
+  margin-bottom: 64px;
+}
+.actions {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.btn {
+  width: 160px;
+  border: none;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 25px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.confirmBtn {
+  background-color: #f43f5e;
+  color: #fff;
+}
+.cancel {
+  background-color: #dfdfdf;
+}
